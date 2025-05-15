@@ -5,11 +5,11 @@ def produtoNumeros():
     num3 = input("Digite um numero real: ").replace(",",".")
 
     if isinstance(num1,int) != True or isinstance(num2, int) != True:
-        print("os dois numeros iniciais precisam ser inteiros")
+        print("os dois numeros iniciais precisam ser inteiros, inicie novemnet o programa")
         return
     
     if isinstance(num3, float) != True:
-        print("os tericeiro numeros precisam ser real")
+        print("os tericeiro numeros precisam ser real, inicie novemnet o programa")
         return
 
     produtoA = (num1 * 2) + (num2 / 2)
