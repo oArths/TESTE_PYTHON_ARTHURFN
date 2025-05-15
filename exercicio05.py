@@ -17,7 +17,7 @@ def nNumeros():
         op = ler_inteiro("Digite 1 para continuar ou 0 para parar: ")
 
     print(f"\n O menor valor é {min(nums)}")
-    print(f"\n O maior valor é {max(nums)}")
-    print(f"\n A soma dos valor é {sum(nums)}")
+    print(f"O maior valor é {max(nums)}")
+    print(f"A soma dos valor é {sum(nums)} \n")
 
 nNumeros()
